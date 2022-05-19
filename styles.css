@@ -1,0 +1,72 @@
+body {
+    margin: 20px;
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+header{
+    display: flex;
+}
+header img{
+    width: 150px;
+    height: 190px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+    body {
+    background-color: rgb(255, 240, 255);
+}
+
+nav{
+    margin-bottom: 12px; 
+}
+
+h3{
+    text-align: left;
+    background-color: rgb(226, 109, 216);
+    padding: 5px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+}
+div .img {
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 1px solid black;
+    margin-bottom: 15px;
+}
+span{
+    font-weight: bold;
+}
+li {
+    list-style-type: none;
+}
+
+@media screen and  (min-width: 700px) {
+    .container {
+        grid-template-areas: 
+        "DatosG DatosG"
+        "FormacionA Experiencia"
+        "Habilidades Habilidades";
+    }
+}
+
+.DatosG{
+    grid-area: DatosG;
+}
+
+.FormacionA{
+    grid-area: FormacionA;
+}
+
+.Experiencia{
+    grid-area: Experiencia;
+}
+
+.Habilidades{
+    grid-area: Habilidades;
+}
